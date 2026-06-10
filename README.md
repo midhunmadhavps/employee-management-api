@@ -12,12 +12,9 @@
 
 ## Tech Stack
 
-  * Node.js
-  * Express.js
-  * MongoDB
-  * Mongoose
-  * JWT
-  * bcrypt
+  * Node.js         - v24.16.0
+  * MongoDB Compass - 1.49.8
+
 
 ## Project Structure
 
@@ -57,7 +54,7 @@
   Clone the repository:
 
   ```bash
-  git clone https://github.com/yourname/user-api.git
+  git clone https://github.com/midhunmadhavps/employee-management-api.git
   cd user-api
   ```
 
