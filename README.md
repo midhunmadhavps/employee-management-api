@@ -102,7 +102,7 @@ Install dependencies:
 
   ### Login User
 
-  POST `/api/users/login`
+  POST `/api/login`
 
   Request:
 

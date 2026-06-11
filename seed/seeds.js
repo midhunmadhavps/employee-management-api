@@ -10,7 +10,7 @@ const Specialization = require("../models/Specialization");
 const user = require("../models/user");
 
 // DB connect
-mongoose.connect(`mongodb://${process.env.HOST}:${process.env.DB_PORT}/${process.env.DB_NAME}`);
+mongoose.connect(`mongodb://${process.env.DB_PORT}:${process.env.DB_PORT}/${process.env.DB_NAME}`);
 
 const seedData = async () => {
     try {
