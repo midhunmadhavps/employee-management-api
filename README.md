@@ -66,6 +66,8 @@ Install dependencies:
   npm i --save mongoose
   npm install jsonwebtoken bcryptjs
   npm install dotenv
+  npm install http-errors
+  npm install cors
   node seed/seeds.js
   ```
 
@@ -178,11 +180,14 @@ Install dependencies:
   }
   ```
 
-  ### Update a Employee
-  GET `/api/employee:id`
+  ### Update a Employee entirely
+  PUT `/api/employee:id`
+
+  ### Update a Employee keys
+  PATCH `/api/employee:id`
 
   ### Delete a Employee
-  GET `/api/employee:id`
+  DELETE `/api/employee:id`
 
   ### Get All company
   GET `/api/companies`

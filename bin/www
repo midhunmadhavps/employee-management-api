@@ -89,4 +89,5 @@ function onListening() {
     : 'port ' + addr.port;
   debug('Listening on ' + bind);
   console.log(`Server running on http://${host}:${port}`);
+  console.log(`Frontend running on ${process.env.FRONTEND_URL}`);
 }
