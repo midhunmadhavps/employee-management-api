@@ -129,8 +129,8 @@ router.get("/:pageSize/:pageNum/:sortField/:sortOrder", auth, async (req, res) =
 
 
 /*
- * UPDATE Employee keys
- * PUT /employee/:id
+ * UPDATE Employee keys (Used to update specific fields of an existing resource.)
+ * patch /employee/:id
  */
 router.patch("/:id", auth, async (req, res) => {
     try {
@@ -176,7 +176,7 @@ router.patch("/:id", auth, async (req, res) => {
 });
 
 /*
- * UPDATE Employee whole data
+ * UPDATE Employee whole data (Used to update an existing resource completely.)
  * PUT /employee/:id
  */
 router.put("/:id", auth, async (req, res) => {
