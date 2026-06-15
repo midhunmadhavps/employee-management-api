@@ -180,10 +180,10 @@ Install dependencies:
   }
   ```
 
-  ### Update a Employee entirely
+  ### Update a Employee entirely (Used to update an existing resource completely.)
   PUT `/api/employee:id`
 
-  ### Update a Employee keys
+  ### Update a Employee keys (Used to update specific fields of an existing resource.)
   PATCH `/api/employee:id`
 
   ### Delete a Employee
